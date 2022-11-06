@@ -7,9 +7,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Git Configuration
 git config --global user.email "github@atomictinker.com" && git config --global user.name "Nick Becker"
 
-# Install XCode Developer Tools
-xcode-select --install
-
 # Generate an RSA key for SSH
 ssh-keygen -t rsa
 
