@@ -1,5 +1,5 @@
 # Terminal
-curl https://github.com/nickbec10/mac-dev-playbook/.zshrc -o ~/.zshrc
+curl https://github.com/nickbec10/mac-dev-playbook/files/terminal/zshrc -o ~/.zshrc
 
 # Install oh-my-zsh (optional)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
