@@ -137,7 +137,6 @@ homebrew_cask_apps:
   - istat-menus
   - iterm2
   - itsycal
-  - licecap
   - postman
   - rectangle
   - sequel-ace
@@ -150,6 +149,7 @@ homebrew_cask_apps:
   # - chromedriver
   # - dropbox
   # - google-chrome
+  # - licecap
   # - omnigraffle
   # - qlcolorcode
   # - qlimagesize
