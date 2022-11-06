@@ -36,31 +36,81 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - antigen
+  - arping
+  - aws-sam-cli
+  - aws-shell
+  - awscli
   - autoconf
   - bash-completion
+  - coreutils
+  - cowsay
+  - curl
+  - diffutils
+  - direnv
   - doxygen
+  - dwdiff
+  - findutils
   - gettext
+  - geoip
   - gifsicle
   - git
+  - git-secrets
   - github/gh/gh
+  - gnu-sed
+  - gnupg
   - go
   - gpg
+  - grep
+  - hping
+  - htop
   - httpie
+  - ifstat
   - iperf
+  - jq
+  - k9s
+  - kubectl
+  - kubectx
   - libevent
-  - sqlite
   - mcrypt
+  - mongosh
+  - moreutils
+  - md5sha1sum
+  - ncurses
+  - neovim
   - nmap
   - node
   - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
-  - readline
+  - openssh
   - openssl
+  - openvpn
+  - pcre2
+  - php
   - pv
+  - pwgen
+  - pyenv
+  - python3@10
+  - pyyaml
+  - readline
+  - screen
+  - shared-mime-info
+  - shellcheck
+  - shfmt
+  - sqlite
+  - ssh-copy-id
+  - telnet
+  - terraform
+  - tmux
+  - trash
+  - tree
+  - vim
+  - webp
   - wget
+  - wireshark
   - wrk
+  - x265
+  - yarn
+  - zsh
   - zsh-history-substring-search
 
 homebrew_taps:
@@ -69,17 +119,62 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  - 1password
+  - alfred
+  - apparency # ql plugin
+  - arduino
+  - audacity
+  - bartender
+  - brave-browser
+  - disk-inventory-x
   - docker
-  - dropbox
   - firefox
-  - google-chrome
+  - font-meslo-for-powerline
+  - gemini
+  - gimp
+  - gns3
   - handbrake
+  - istat-menus
+  - iterm2
+  - itsycal
   - licecap
+  - postman
+  - rectangle
   - sequel-ace
-  - slack
-  - sublime-text
-  - transmit
+  - spotify
+  - the-unarchiver
+  - visual-studio-code
+  - vitamin-r
+  - vlc
+  - vnc-viewer
+  # - chromedriver
+  # - dropbox
+  # - google-chrome
+  # - omnigraffle
+  # - qlcolorcode
+  # - qlimagesize
+  # - qlmarkdown
+  # - qlstephen
+  # - qlvideo
+  # - quicklook-json
+  # - slack
+  # - sublime-text
+  # - transmit
+  # Not Homebrew
+  # - deliveries
+  # - ftpserver
+  # - mongodb-compass
+  # - plantronics-hub
+  # - taurine
+  # - tftpserver
+  # - translatorx
+  # - webex
+  # OSS version (below) doesn't have Settings Sync (!)
+  # see https://github.com/microsoft/vscode/issues/105310#issuecomment-693262654
+  # - vscodium
+  # - burp-suite
+  # - font-menlo-for-powerline
+  # - font-source-code-pro-for-powerline
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
