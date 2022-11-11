@@ -121,7 +121,6 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
   - alfred
-  - apparency   # ql plugin
   - arduino
   - audacity
   - bartender
@@ -146,6 +145,7 @@ homebrew_cask_apps:
   - vitamin-r
   - vlc
   - vnc-viewer
+  # - apparency  # ql plugin
   # - chromedriver
   # - dropbox
   # - google-chrome
