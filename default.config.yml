@@ -35,7 +35,7 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
+  # - ansible  # Installed via Pip.
   - antigen
   - arping
   - aws-sam-cli
@@ -121,7 +121,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
   - alfred
-  - apparency # ql plugin
+  - apparency  # ql plugin
   - arduino
   - audacity
   - bartender
