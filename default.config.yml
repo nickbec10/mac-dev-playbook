@@ -60,6 +60,7 @@ homebrew_installed_packages:
   - gnu-sed
   - gnupg
   - go
+  - google-cloud-sdk
   - gpg
   - grep
   - hping
@@ -89,7 +90,7 @@ homebrew_installed_packages:
   - pv
   - pwgen
   - pyenv
-  - python3@10
+  # - python3@10
   - pyyaml
   - readline
   - screen
