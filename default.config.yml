@@ -8,10 +8,10 @@ configure_osx: true
 # Set to 'true' to configure the Dock via dockutil.
 configure_dock: false
 dockitems_remove: []
-# - Launchpad
-# - TV
-# - Podcasts
-# - 'App Store'
+ - Launchpad
+ - TV
+ - Podcasts
+ - 'App Store'
 dockitems_persist: []
 # - name: "Sublime Text"
 #   path: "/Applications/Sublime Text.app/"
@@ -134,7 +134,7 @@ homebrew_cask_apps:
   - gimp
   - gns3
   - handbrake
-  - istat-menus
+  # - istat-menus
   - iterm2
   - itsycal
   - postman
@@ -178,9 +178,13 @@ homebrew_cask_apps:
   # - font-source-code-pro-for-powerline
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
-mas_email: ""
-mas_password: ""
+mas_installed_apps: 
+  - { id: 1319778037, name: "iStat Menus" }
+  - { id: 1295203466, name: "Microsoft Remote Desktop" }
+  - { id: 1091189122, name: "Bear – Markdown Notes" }
+  - { id: 960276676, name: "Taurine" }
+mas_email: "apple@atomictinker.com"
+mas_password: "AB28ngxK"
 
 osx_script: "~/.osx --no-restart"
 
